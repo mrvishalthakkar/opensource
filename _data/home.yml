@@ -1,0 +1,183 @@
+slider:
+    title1:
+          Instant Communication, 
+          Presence and Messaging
+    content1: We like to make things scalable,in fact we are a little bit obsessed with optimizations.
+    image1: 
+          path: assets/img/tiger-with-laptop.png
+
+    title2: Instant Communication, Presence and Messaging
+    content2: We like to make things scalable, in fact we are a little bit obsessed with optimizations.
+    image2: 
+           path: assets/img/tiger-with-laptop.png
+
+    title3: Instant Communication,Presence and Messaging
+    content3: We like to make things scalable, in fact we are a little bit obsessed with optimizations.
+    image3: 
+           path: assets/img/tiger-with-laptop.png
+
+spelization:  
+      title1: Presence
+      content1: Presence server keeps track who is online, offline, busy or available. It can also keep track of user's mood, location and activities.
+      image1: 
+          path: assets\img\icon\icons-01.svg
+     
+      title2: Always Online
+      content2: Server allows for people or devices to be always connected and always online. This results in truly real-time communication between all parties.
+      image2: 
+          path: assets\img\icon\icons-02.svg
+
+      title3: More than Messaging
+      content3: Tigase is so much more than sending messages, and simple chatting. It allows for rich media messages, sending documents, photos, videos and any files to a user, a group of users or to a subscription channel.
+      image3: 
+          path: assets\img\icon\icons-03.svg
+
+      title4: Notifications
+      content4: In today’s world everybody and everything is always online, until it is not. In this rare cases Tigase offers alternative message delivery methods through Push, Text Messages or Email. 
+      image4: 
+          path: assets\img\icon\icons-04.svg  
+TigaseApps:
+      title1: INSTANT COMMUNICATION APPS
+      heading1: Tigase offers Apps for all popular systems and platforms
+      content1: Native platform applications are always better then web based. All applications, we offer, are the working proof that XMPP can be used efficiently on both desktop and mobile platforms. These three libraries are the foundation of our work and offer but there is much more to explore 
+      image: 
+          path: assets\img\Tiger_offers_apps.png 
+
+INSTANTCOMMUNICATION:
+                  title1: INSTANT COMMUNICATION LIBRARIES
+                  heading1: Tigase offers libraries to build chat apps and tools for any platform.
+                  content1: We use our libraries ourselves to develop our own communication software. Our open source libraries allow to easily build native apps and tools for any platform and environment.
+                  title2: JaXMPP
+                  content2: JaXMPP stands for 'Java XMPP'.Powerful Java library which we have been developing for many years. Works everywhere where Java works.
+                  title3: Martin
+                  content3: XMPP Library in Swift designed for for iOS and MacOS systems. To create native and efficient apps for Apple ecosystem.
+                  title4: Halcyon
+                  content4: We believe Kotlin is the future for the efficient software development for different platforms. Build from ground up, powerful library to develop user apps for any system.
+choosetigase:
+            title1: WHY CHOOSE TIGASE?
+            heading1: Secure, reliable, and simple solution for .
+            image:
+               path: assets/img/Tiger_Secure_Reliable.png
+            headline1: Secure
+            content1: Open Source and based on open standards, recognized security protocols and practices such as XMPP, TLS, SASL. Well tested with thousands of automated tests cases. Peer reviewed and tested by independent development teams.
+            headline2: Reliable 
+            content2: Implemented with modern tools and development practices. Peer-reviewed code. Tested under large loads over extended period of time. Known to work without restart for over 3 years on production systems.
+            headline3: Scalable
+            content3: Supports clustering out of the box. Offers near-linear scalability for typical use-case scenarios. Tested under large load of over 30 million messages per second. Works on production systems with over 10 million users.     
+
+Feature:
+       heading: There are many ways to integrate third-party systems with Tigase Instant Communication Server.
+       title1: Mobile Optimizations
+       content1: XMPP like many other technologird were designed in pre-mobile era. By design they are intended for desktop use. However, Tigase offers many extensions and customizations dedicated to mobile use in Tigase's server software, libraries and end-user apps.
+       image1: 
+          path: assets\img\icon\icons_2-01.svg
+       title2: Message Forwarding
+       content2: XMPP is usually the best option for effective real-time communication. This is for as long as users are connected to the server. However, if they are not, Tigase offers different message forwarding options over Push, Text Messages and Email.
+       image2: 
+          path: assets\img\icon\icons_2-02.svg
+       title3: Fast Delivery
+       content3: Tigase software is highly optimized. It does not waste CPU cycles, RAM bytes or network bandwidth. Specifically for mobile and web connections it can sinificantly reduce resources usage. As a result Tigase can deliver messages within unde 1 ms on typical production system.
+       image3: 
+          path: assets\img\icon\icons_2-03.svg
+       title4: Abuse Protection
+       content4: Internet, nowadays is not a safe place anymore. Network systems are being attacked and abused in many ways. Tigase software offers various automated abuse protection techniques. As a result it allows to run reliable and secure communication systems.
+       image4: 
+          path: assets\img\icon\icons_2-04.svg         
+
+Tigaseserver:
+       title: TIGASE SERVER
+       headline: Install Tigase Communication Server
+       content: 3 easy steps to install Tigase Server. It won't take longer than 10 minutes.
+       point1: Download & Extract
+       point2: Run Script
+       point3: Follow the Web Installation Wizard
+       point4: Done
+clientapps:
+        heading: CLIENT APPS
+        content: Native platform applications are always better then web based. All applications, we offer, are the working proof that XMPP can be used efficiently on both desktop and mobile platforms.
+        title: Tigase Open-Source XMPP Client Apps for popular platforms
+        title1: Stork IM
+        content1: Tigase Android, XMPP Client, Source Code
+        title2: Beagle IM
+        content2: Tigase MacOS, XMPP Client, Source Code
+        title3: Siskin IM
+        content3: Tigase iOS, XMPP Client, Source Code
+        title4: Demo Content
+        content4: Demo Content, XMPP Client, Source Code    
+about:
+     title: ABOUT TIGASE
+     heading: Over 4,200 Tigase servers running worldwide...
+     content: Tigase is an open source project started by Artur Hefczyc in October 2004 to develop an XMPP server implementation in Java
+     image:
+       path: assets/img/community.png   
+ourcomic:
+     title: OUR COMIC
+     heading: We bring a real-time communication system for our customers worldwide.
+     content: Here you will find our tiger delivering a new message to you every day.
+     image:
+       path: /assets/img/comic.jpg   
+ournews:
+    title: OUR NEWS
+    content: Here are the latest company news from our blog that got the most attention.
+    image: assets/img/b1.png
+    blog1:
+        title: BeagleIM 4.1 and SiskinIM 6.1 released
+        content: New versions of XMPP clients for Apple’s mobile and desktop platforms have been released...
+        date: Nov 12, 2020 
+        
+    blog2:
+        title: Publishing and Subscribing with Halcyon
+        content:  As you recall, Halcyon is multiplatform XMPP library written in Kotlin. In a previous article...
+        date: Sep 24, 2020
+        image: assets/img/b2.png    
+    blog3:
+        title: Using STUN & TURN server
+        content: Communication with your family and friends is not only about instant chats. Audio and Video calls...
+        date: Nov 12, 2020
+        image: assets/img/b2.png    
+      
+  
+             
+
+client:
+         title: OUR CLIENTS
+         heading: Trusted by over 300+ clients
+         content: We bring solutions to make life easier for our customers.
+         image1: 
+             path: assets\img\client-logo\img01.png
+         image2: 
+             path: assets\img\client-logo\img02.png  
+         image3: 
+            path: assets\img\client-logo\img03.png
+         image4: 
+             path: assets\img\client-logo\img04.png
+         image5: 
+             path: assets\img\client-logo\img05.png  
+         image6: 
+            path: assets\img\client-logo\img06.png
+         image7: 
+             path: assets\img\client-logo\img07.png
+         image8: 
+             path: assets\img\client-logo\img08.png 
+         image9: 
+            path: assets\img\client-logo\img09.png  
+         image10: 
+             path: assets\img\client-logo\img10.png
+         image11: 
+             path: assets\img\client-logo\img11.png  
+         image12: 
+            path: assets\img\client-logo\img12.png 
+         image13: 
+             path: assets\img\client-logo\img13.png 
+         image14: 
+             path: assets\img\client-logo\img14.png 
+         image15: 
+            path: assets\img\client-logo\img15.png 
+         image16: 
+            path: assets\img\client-logo\img16.png    
+         image17: 
+             path: aassets\img\client-logo\img17.png 
+         image18: 
+             path: assets\img\client-logo\img18.png   
+         image19: 
+            path: assets\img\client-logo\img19.png                  

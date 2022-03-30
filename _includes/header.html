@@ -1,0 +1,71 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#"><img class="d-block" src="assets/img/Tigase_logo.png" width="116" alt="Finder"></a> 
+        -->
+        <!-- <a class="navbar-brand" href="{{ site.url }}">
+          
+          <img src="{{ site.url }}/{{ site.data.navigation.logo.path }}" alt="image">
+         
+        </a> -->
+        <a class="navbar-brand" href="{{ site.baseurl }}/#">
+          {%- if site.data.navigation.logo -%}
+              <img src="{{ site.data.navigation.logo.path }}" alt="logo">
+          {%- else -%}
+              {{ site.title }}
+          {%- endif -%}
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            {% for item in site.data.navigation.docs %}
+            <li class="nav-item"><a class="nav-link" href="{{ item.url }}">{{ item.title }}</a></li>
+            
+            {% endfor %}
+          
+        </ul>
+          <!-- <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Documentation.html">Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Download.html">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Community.html">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Donate.html">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Enterprise.html">Enterprise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Blog.html">Blog</a>
+            </li> -->
+          </ul>
+          <form class="d-flex ">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success me-2" type="submit">Search</button>
+          </form>
+          <div class="dropdown ">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Language
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Dutch</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
